@@ -3,20 +3,20 @@
 class Tmjlite < Formula
   desc "Embedded SQL database with git-style branches of data (CLI)"
   homepage "https://tmjlite.com.br"
-  version "0.6.0"
+  version "0.6.2"
   # Binário proprietário da TMJ Sistemas (uso e redistribuição sem modificação).
   license :cannot_represent
 
   on_macos do
-    url "https://github.com/TMJacometti/tmjlite/releases/download/v0.6.0/tmjlite-cli-macos-arm64-0.6.0.tar.gz"
-    sha256 "ece8e920452e755dc597cac5469d6a847102321da1db1360641512f8284cdb7c"
+    url "https://github.com/TMJacometti/tmjlite/releases/download/v0.6.2/tmjlite-cli-macos-arm64-0.6.2.tar.gz"
+    sha256 "1c1e52eafa29ff1d87f9436cbbadcc3cdcc954cf9ae4ff3ad4a1166ebe024a50"
 
     depends_on arch: :arm64
   end
 
   on_linux do
-    url "https://github.com/TMJacometti/tmjlite/releases/download/v0.6.0/tmjlite-cli-linux-x64-0.6.0.tar.gz"
-    sha256 "29938db4adbe9534d5e68da389a05217e23e0bfd305333590c25d33cb08bf72b"
+    url "https://github.com/TMJacometti/tmjlite/releases/download/v0.6.2/tmjlite-cli-linux-x64-0.6.2.tar.gz"
+    sha256 "72299f649829ee4c4363d62e18dce85c60ed57dd4ce0779c0a77afaebf440e92"
 
     depends_on arch: :x86_64
   end
